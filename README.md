@@ -4,15 +4,7 @@ Allows NodeBB to interface with the onesignal service in order to provide push n
 ## Installation
 cd to nodebb folder and run:
 
-`npm install https://github.com/h98aaron/nodebb-plugin-onesignal-v1`
-
-## Configuration
-
-1. Install and activate this plugin.
-2. [Register an application via the onesignal website](https://www.onesignal.com/create-client), and obtain a client key and secret.
-    * In particular, the `redirect_uri` should be your forum's URL with `/onesignal/auth` appended to it (e.g. `https://community.nodebb.org/onesignal/auth`)
-3. Enter the client key and secret into the plugin's setup page (`/admin/onesignal`), and save.
-4. Reload NodeBB.
+`npm install https://github.com/eliya328219/nodebb-plugin-onesignal-v1.git`
 
 ## Credits
 [CCoB for the original NodeBB OneSignal](https://github.com/CCob/nodebb-plugin-onesignal)
